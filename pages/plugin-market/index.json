@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "插件",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

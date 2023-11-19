@@ -1,0 +1,1 @@
+<view class="verifyToken data-v-ae7adcb8"><view class="notLogin data-v-ae7adcb8"><view data-event-opts="{{[['tap',[['toLogin',['$event']]]]]}}" class="toLogin-btn data-v-ae7adcb8" bindtap="__e">登录/注册</view><view class="tips data-v-ae7adcb8">登录后可查看服务器信息</view></view></view>

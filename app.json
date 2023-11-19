@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/plugin-market/index",
+    "pages/my/index"
+  ],
+  "subPackages": [
+    {
+      "root": "subPages",
+      "pages": [
+        "redis/index",
+        "server-save-update/server-save-update"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "color": "#555",
+    "selectedColor": "#24afd6",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homeActive.png"
+      },
+      {
+        "text": "插件",
+        "pagePath": "pages/plugin-market/index",
+        "iconPath": "static/collect.png",
+        "selectedIconPath": "static/collectActive.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/index",
+        "iconPath": "static/wode.png",
+        "selectedIconPath": "static/wodeActive.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

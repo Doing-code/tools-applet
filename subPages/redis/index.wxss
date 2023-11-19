@@ -1,0 +1,40 @@
+
+.demo-uni-row {
+	margin-bottom: 10px;
+
+	/* 组件在小程序端display为inline */
+	/* QQ、抖音小程序文档写有 :host，但实测不生效 */
+	/* 百度小程序没有 :host */
+}
+
+/* 支付宝小程序没有 demo-uni-row 层级 */
+
+/* 微信小程序使用了虚拟化节点，没有 demo-uni-row 层级 */
+ .uni-row {
+	margin-bottom: 10px;
+}
+.demo-uni-col {
+	height: 36px;
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dark_deep {
+	background-color: #99a9bf;
+}
+.dark {
+	background-color: #d3dce6;
+}
+.light {
+	background-color: #e5e9f2;
+}
+.example-body {
+
+	display: block;
+
+	padding: 5rpx 10rpx 0;
+	overflow: hidden;
+}
+
