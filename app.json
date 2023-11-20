@@ -9,7 +9,8 @@
       "root": "subPages",
       "pages": [
         "redis/index",
-        "server-save-update/server-save-update"
+        "server-save-update/server-save-update",
+        "redis/operation-panel/redis-operation-panel"
       ]
     }
   ],
