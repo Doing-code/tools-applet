@@ -1,1 +1,60 @@
-/* subPages/redis/operation-panel/redis-operation-panel.wxss */
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.uni-list-item {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #eee;
+  font-size: 14px;
+}
+.uni-list-item__container {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  flex: 1;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.uni-list-item__content-title {
+  font-size: 14px;
+  color: #666;
+}
+.demo-uni-row {
+  margin-bottom: 10px;
+}
+ .uni-row {
+  margin-bottom: 10px;
+}
+.demo-uni-col {
+  height: 35px;
+  border-radius: 5px;
+}
+.text-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.vetically {
+  display: flex;
+  align-items: center;
+}
+.dark_deep {
+  background-color: #99a9bf;
+}
+.dark {
+  background-color: #d3dce6;
+}
+.light {
+  background-color: #ffffff;
+}
+.example-body {
+  display: block;
+  padding: 5rpx 10rpx 0;
+  overflow: hidden;
+}
+
