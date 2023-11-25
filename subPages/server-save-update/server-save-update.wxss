@@ -21,4 +21,12 @@
 	height: 35px;
 	margin-left: 10px;
 }
+.button-hover[type=primary] {
+	background-color: #0062cc;
+	color: hsla(0, 0, 100%, .6);
+}
+button[type=primary] {
+	background-color: #007aff;
+	color: #fff;
+}
 
